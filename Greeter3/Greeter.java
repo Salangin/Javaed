@@ -1,6 +1,6 @@
 public class Greeter {
 	private String format;
-	public int count=0; //переменная считает количество вызовов
+	public static int count=0; //переменная считает количество вызовов
 	public Greeter(String format) {
 		this.format=format;
 	}
