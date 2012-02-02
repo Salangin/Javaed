@@ -5,9 +5,9 @@ public class HelloWorld {
 		// ? new Greeter("Hello, ")
 		// : new Greeter("Salut, ");
 	// }
-	// нужно по другому написать цикл , если используется тернарный оператор
-		for (String a:args) {
+		for (String a:args) { // нужно по другому написать цикл , если используется тернарный оператор
 			g.greet(a);
 		}
+		System.out.println(g.count);
 	}	
 }
